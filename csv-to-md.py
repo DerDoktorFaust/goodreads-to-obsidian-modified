@@ -268,7 +268,7 @@ def write_book_md(title, author, yearpublished, book_md):
 def main():
     global template_path
     template_path = "book.md.Template"
-    csv_path = "example/goodreads_export_example.csv"
+    csv_path = "example/goodreads_library_export.csv"
     global output_path
     output_path = "output"
     global sub_len
@@ -326,6 +326,7 @@ def main():
             return 1
 
     if args.dry:
+        print("Dry Run. Skipping write!")
         print("Dry Run. Skipping write!")
         dry_run = True
 
@@ -398,6 +399,8 @@ def main():
                 date_dict["BaseTitle"] = base_title
             else:
                 date_dict["BaseTitle"] = ""
+
+            date_dict["Title"] = date_dict["Title"].replace(":", " ")
 
             book_md = format_note(date_dict, template_string)
 
