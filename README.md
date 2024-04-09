@@ -6,6 +6,8 @@ This is a modified cloned copy by Christopher Goodwin on 2024.04.08
 I changed the template and changed exported file names; added stars instead of numbers for ratings.
 Many thanks to Jason Burns for the original repository.
 
+Everything below in this ReadMe is Jason's original work. The original repository can be found [here](https://github.com/bbbburns/goodreads-to-obsidian/tree/main).
+
 
 ## Is it done?
 This works for me. I think it's ready to use. You can find my [blog post about it for some more background](https://bbbburns.com/blog/2023/06/converting-from-goodreads-to-obsidian/).
