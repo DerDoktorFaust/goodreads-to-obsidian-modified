@@ -400,6 +400,7 @@ def main():
             else:
                 date_dict["BaseTitle"] = ""
 
+            # Can't have colons in YAML for Obsidian, so remove them
             date_dict["Title"] = date_dict["Title"].replace(":", " ")
 
             book_md = format_note(date_dict, template_string)
