@@ -268,7 +268,7 @@ def write_book_md(title, author, yearpublished, book_md):
 def main():
     global template_path
     template_path = "book.md.Template"
-    csv_path = "example/goodreads_library_export.csv"
+    csv_path = "example/goodreads_export_example.csv"
     global output_path
     output_path = "output"
     global sub_len
