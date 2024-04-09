@@ -1,0 +1,15 @@
+---
+title: $Title
+author: ${Author}
+isbn: $ISBN
+isbn13: $ISBN13
+rating: $MyRating
+binding: $Binding
+num_pages: $NumberofPages
+year_published: $YearPublished
+date_read: $DateRead
+---
+# $Title
+
+## Review
+
